@@ -1,0 +1,7 @@
+[submodule "liberty"]
+	path = liberty
+	url = https://gitee.com/LibertyChain/LibertyChain
+	ignore = all
+[submodule "external/quirc"]
+	path = external/quirc
+	url = https://github.com/dlbeer/quirc/

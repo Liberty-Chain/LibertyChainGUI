@@ -436,7 +436,7 @@ Rectangle {
             }
         }
 
-        /*Flickable {
+        Flickable {
             id:flicker
             height: 50
             anchors.top: parent.top
@@ -445,7 +445,7 @@ Rectangle {
             //anchors.bottom: progressBar.visible ? progressBar.top : networkStatus.top
             contentWidth: menuColumn.width
             boundsBehavior: isMac ? Flickable.DragAndOvershootBounds : Flickable.StopAtBounds
-            clip: true*/
+            clip: true
 
         Rectangle {
             id: menuColumn
@@ -636,7 +636,7 @@ Rectangle {
 
         } // Column
 
-        //} // Flickable
+        } // Flickable
 
     }
 }

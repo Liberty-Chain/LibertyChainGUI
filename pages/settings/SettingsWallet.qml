@@ -137,7 +137,7 @@ Rectangle {
             }
         }
 
-        LibertyComponents.SettingsListItem {
+        /*LibertyComponents.SettingsListItem {
             iconText: FontAwesome.cashRegister
             isLast: true
             description: qsTr("Receive Liberty for your business, easily.") + translationManager.emptyString
@@ -148,7 +148,7 @@ Rectangle {
                 middlePanel.flickable.contentY = 0;
                 updateBalance();
             }
-        }
+        }*/
     }
 
     Component.onCompleted: {

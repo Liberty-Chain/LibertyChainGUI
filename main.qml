@@ -213,9 +213,6 @@ ApplicationWindow {
                 appWindow.viewState = prevState;
             }
         };
-        persistentSettings.restore_height = 0;
-        persistentSettings.is_recovering = false;
-        persistentSettings.is_recovering_from_device = false;
         passwordDialog.open(usefulName(persistentSettings.wallet_path));
     }
 
